@@ -1,0 +1,142 @@
+body {
+    background-image: url(backg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+#lais {
+    width: 100px;
+    height: 100px;
+    background-image: url(lais.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#eu {
+    width: 100px;
+    height: 100px;
+    background-image: url(eu.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    display: block;
+}
+
+#auto {
+    display: block;
+    position: absolute;
+    height: 35px;
+    border-radius: 15%;
+    bottom: 0%;
+    right: 0%;
+}
+
+#voltar {
+    display: block;
+    position: absolute;
+    margin: 40px;
+    height: 35px;
+    border-radius: 15%;
+    bottom: 0%;
+    right: 0%;
+}
+
+#kissMe {
+    display: block;
+    position: absolute;
+    margin-bottom: 140px;
+    bottom: 0;
+    right: 0;
+}
+
+#enviar {
+    display: block;
+    position: absolute;
+    margin: 40px;
+    margin-bottom: 90px;
+    height: 35px;
+    border-radius: 15%;
+    bottom: 0%;
+    right: 0%;
+}
+
+#felipe {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    margin-bottom: 170px;
+    height: 35px;
+    border-radius: 15%;
+    bottom: 0%;
+    right: 0%;
+}
+
+#jLais {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    margin-bottom: 210px;
+    height: 35px;
+    border-radius: 15%;
+    bottom: 0%;
+    right: 0%;
+}
+
+#cima {
+    display: block;
+    position: absolute;
+    background-image: url(up.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    bottom: 100px;
+    left: 50px;
+}
+
+#baixo {
+    display: block;
+    position: absolute;
+    background-image: url(down.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    left: 50px;
+}
+
+#esquerda {
+    display: block;
+    position: absolute;
+    background-image: url(left.png);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    bottom: 50px;
+    left: 0;
+}
+
+#direita {
+    display: block;
+    position: absolute;
+    background-image: url(right.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    bottom: 50px;
+    left: 100px;
+}
